@@ -2,3 +2,4 @@
 -Folder "Starlight Address Book" created
 -Added Class Diagram
 -Created Github repository (https://github.com/rekkitcwts/starlight_addressbook)
+-Added Person class (still missing some getters and setters)
