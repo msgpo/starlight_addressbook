@@ -1,3 +1,11 @@
+10-Dec-2013
+-Added Samples for manipulating CSV Files
+-Address Book now designed for CSV files
+
+5-Dec-2013
+-Completed Person class
+-Created AddressBook class
+
 28-Nov-2013
 -Folder "Starlight Address Book" created
 -Added Class Diagram

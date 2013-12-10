@@ -202,7 +202,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="4dxzEaWOy0SaqCz+j4yWYAAA">
 <XPD:ATTR name="Name" type="string">Person</XPD:ATTR>
 <XPD:REF name="Namespace">xVuxqIxdCESn4P/l6Z1+owAA</XPD:REF>
@@ -245,11 +245,7 @@
 <XPD:REF name="Owner">4dxzEaWOy0SaqCz+j4yWYAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="tlN/cLivTUSRIqOP1SdDBgAA">
-<XPD:ATTR name="Name" type="string">Jung, Yoontae</XPD:ATTR>
-<XPD:REF name="Namespace">xVuxqIxdCESn4P/l6Z1+owAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="VAxereZQ+EG8kFnfp9dlnwAA">
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="VAxereZQ+EG8kFnfp9dlnwAA">
 <XPD:ATTR name="Name" type="string">AddressBook</XPD:ATTR>
 <XPD:REF name="Namespace">xVuxqIxdCESn4P/l6Z1+owAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
@@ -273,7 +269,7 @@
 <XPD:ATTR name="#Associations" type="integer">1</XPD:ATTR>
 <XPD:REF name="Associations[0]">LPNiXbrXG063+oloWfzCVAAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedElements[3]" type="UMLAssociation" guid="4Paa6ZLvGUiVkTS0HuAIIQAA">
+<XPD:OBJ name="OwnedElements[2]" type="UMLAssociation" guid="4Paa6ZLvGUiVkTS0HuAIIQAA">
 <XPD:REF name="Namespace">xVuxqIxdCESn4P/l6Z1+owAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">PE4FIxMBaEKO8meIMWrT8QAA</XPD:REF>
