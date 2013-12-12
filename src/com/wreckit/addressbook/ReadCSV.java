@@ -16,7 +16,7 @@ public class ReadCSV {
  
   public void run() {
  
-	String csvFile = "D:\\KureidoDevtools\\eclipse\\workspace\\starlight_addressbook\\src\\com\\wreckit\\addressbook\\SniperCSV.csv";
+	String csvFile = "D:\\KureidoDevtools\\eclipse\\workspace\\starlight_addressbook\\src\\com\\wreckit\\addressbook\\donotedit.csv";
 	BufferedReader br = null;
 	String line = "";
 	String cvsSplitBy = ",";
@@ -30,8 +30,8 @@ public class ReadCSV {
  
 		        // use comma as separator
 			String[] person = line.split(cvsSplitBy);
- 
-			System.out.println(person[0] + ", " + person[1] + " from " + person[2] + ", " + person[3] + ", " + person[4]);
+			Person p = new Person(person[0], person[1], person[2], person[3], person[4], person[5], person[6]);
+			System.out.println(p.getFirstName() + " " + p.getLastName() + " from " + p.getAddress() + ", " + p.getCity() + ", " + p.getState());
  
 		}
  

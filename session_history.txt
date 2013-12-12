@@ -1,3 +1,10 @@
+12-Dec-2013
+-Finalized Save function.
+
+11-Dec-2013
+-Address Book now uses JTable
+-Made GUI larger to accommodate large data.
+
 10-Dec-2013
 -Added Samples for manipulating CSV Files
 -Address Book now designed for CSV files

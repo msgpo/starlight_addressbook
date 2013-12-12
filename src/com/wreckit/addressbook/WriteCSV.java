@@ -28,7 +28,7 @@ public class WriteCSV
 	
 	public static void main(String[] args) throws IOException
 	{
-		Person p = new Person("von Karma", "Axle", "PostgreSubdivision", "Berlin", "East Germany", "38742", "6592369562");
+		Person p = new Person("Mirinda", "Palma", "Red Ribbons", "Psychology Department", "Spider Web", "38742", "6592369562");
 		addNewContact(p);
 	}
 }
