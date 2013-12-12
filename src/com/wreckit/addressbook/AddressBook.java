@@ -24,6 +24,7 @@ public class AddressBook extends JFrame implements ActionListener
 	private File file;
 	private JMenuItem mntmOpen;
 	private JMenuItem mntmSave;
+	private JMenuItem mntmExit;
 	private String col[] = {"Last Name","First Name","Address","City","State","Zip","Phone Number"};
 	
 	// File manipulation.
@@ -40,6 +41,7 @@ public class AddressBook extends JFrame implements ActionListener
 	
 	// Person array check
 	private ArrayList<Person> personsList;
+	private int option;
 
 	/**
 	 * Create the frame.
@@ -76,8 +78,9 @@ public class AddressBook extends JFrame implements ActionListener
 		mnFile.add(mntmSave);
 		mntmSave.addActionListener(this);
 		
-		JMenuItem mntmExit = new JMenuItem("Exit");
+		mntmExit = new JMenuItem("Exit");
 		mnFile.add(mntmExit);
+		mntmExit.addActionListener(this);
 		
 		JMenu mnHelp = new JMenu("Help");
 		menuBar.add(mnHelp);
@@ -219,6 +222,14 @@ public class AddressBook extends JFrame implements ActionListener
 	        	 
 	        	
 	         }
+		 }
+		 if (e.getSource() == mntmExit)
+		 {
+			 option = JOptionPane.showConfirmDialog(null,"Exit? Unsaved changes will be lost.",null, JOptionPane.YES_NO_OPTION);
+             if(option == 0)
+             {
+                 System.exit(0);
+             }
 		 }
 	}
 }

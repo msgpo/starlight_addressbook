@@ -1,5 +1,6 @@
 12-Dec-2013
 -Finalized Save function.
+-File > Exit now displays confirmation dialog.
 
 11-Dec-2013
 -Address Book now uses JTable
